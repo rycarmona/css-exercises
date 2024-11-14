@@ -1,25 +1,56 @@
+* {
+  /* outline: 2px solid blue; */
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 7px;
+  display: flex;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
+  outline: 2px solid red;
+  align-self: center;
+  /* flex: 0 0; */
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0;
+  display: flex;
+  /* flex: 1; */
+  /* outline: 2px solid red; */
+  /* justify-content: space-around; */
 }
 
 a {
-  font-size: 22px;
+  font-size: 14px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  outline: 2px solid blue;
+  margin-right: auto;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.right-links {
+  margin-left: auto;
+  outline: 2px solid red;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
