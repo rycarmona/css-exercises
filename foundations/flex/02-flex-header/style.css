@@ -17,7 +17,7 @@
   padding: 4px 32px;
   margin: auto;
   outline: 2px solid red;
-  align-self: center;
+  /* align-self: center; */
 }
 
 ul {
@@ -37,21 +37,21 @@ a {
 }
 
 .left-links {
-  margin-right: auto;
   display: flex;
   flex: 1;
   justify-content: flex-start;
+  /* margin-right: auto; */
 }
 
 .right-links {
-  margin-left: auto;
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  /* margin-left: auto; */
 }
 
 li {
-  flex: 1;
+  /* flex: 1; */
 }
 
 /* added this just to commit */
